@@ -1,0 +1,40 @@
+{
+  "name": "project-log",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@kubesail/redis": "^0.1.0",
+    "cors": "^2.8.5",
+    "deploy-node-app": "^0.1.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.8"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "start": "bash bin/dev.sh",
+    "build": "react-scripts build",
+    "deploy": "deploy-node-app --no-build --no-deploy -o -",
+    "test": "react-scripts test",
+    "eject-www": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "deploy-node-app": {
+    "prod": {
+      "port": 4000,
+      "protocol": "http",
+      "entrypoint": "src/api/index.js"
+    }
+  }
+}
