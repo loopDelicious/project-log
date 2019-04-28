@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import logos from './logos.svg'
-import './App.css'
+import logos from '../img/logos.svg'
+import '../css/App.css'
 
 const API_HOST = process.env.REACT_APP_API_HOST || 'http://localhost:4000'
 
