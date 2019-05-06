@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Create Node App](https://github.com/kubesail/create-node-app).
 
+## Install dependencies
+
+### `npm install` or `yarn install`
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -7,6 +11,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br>
+Starts the example API server via `node src/api/index.js` - listening on port 4000. Starts the front end - on port 3000<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
