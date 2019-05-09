@@ -3,14 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "@kubesail/redis": "^0.1.0",
     "cors": "^2.8.5",
     "deploy-node-app": "^0.1.1",
+    "express-form-data": "^2.0.8",
+    "i": "^0.3.6",
+    "npm": "^6.9.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.8"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.8.1",
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.11"
   },

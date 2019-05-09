@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Create Node App](https://github.com/kubesail/create-node-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Create Node App](https://github.com/create-node/create-node-app#readme).
 
 ## Install dependencies
 

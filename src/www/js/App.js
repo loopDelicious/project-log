@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import logos from '../img/logos.svg'
+import ImageLoader from './imageUploader.js'
 import '../css/App.css'
 
 const API_HOST = process.env.REACT_APP_API_HOST || 'http://localhost:4000'
@@ -24,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <ImageLoader />
         <header className="App-header">
           <img src={logos} className="App-logo" alt="logo" />
           <p>
