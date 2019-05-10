@@ -10,16 +10,17 @@
     margin: auto;
 }
 
-.brand {
-    float: left;
-    color: whitesmoke;
-    margin: 5px 0px;
-}
-
-img {
+.brand-header img {
     float: left;
     height: 100%;
     max-height: 30px;
     padding: 0px;
     margin: 0px 10px;
+    border: none;
+}
+
+.brand {
+    float: left;
+    color: whitesmoke;
+    margin: 5px 0px;
 }
