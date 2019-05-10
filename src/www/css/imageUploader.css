@@ -5,13 +5,6 @@
 
 /* https://github.com/funador/react-image-upload/blob/master/client/src/App.css */
 
-body {
-  font-family: Roboto, sans-serif;
-  background: #f2f2f2;
-  color: #757575;
-  margin: 0px;
-}
-
 .container {
   display: flex;
   flex-direction: column;
