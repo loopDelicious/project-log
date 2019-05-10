@@ -1,12 +1,25 @@
-.brand-header {
-    height: 30px;
-    padding: 5px 15px;
+.header {
+    width: 100%;
     display: block;
     background-color: #757575;
+    height: 30px;
+}
+
+.brand-header {
+    max-width: 1000px;
+    margin: auto;
 }
 
 .brand {
     float: left;
     color: whitesmoke;
-    margin: 5px 15px;
+    margin: 5px 0px;
+}
+
+img {
+    float: left;
+    height: 100%;
+    max-height: 30px;
+    padding: 0px;
+    margin: 0px 10px;
 }
